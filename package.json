@@ -1,0 +1,10 @@
+{
+  "name": "morse-translator",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
