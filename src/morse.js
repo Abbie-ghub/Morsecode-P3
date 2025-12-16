@@ -32,7 +32,7 @@ export const englishToMorse = (text) => {
     .toUpperCase()
     .split("")
     .map(char => {
-      if (char === " ") return " / ";  
+      if (char === " ") return "/";  
       return morseCodeMap[char] || "";
     })
     .join(" ");

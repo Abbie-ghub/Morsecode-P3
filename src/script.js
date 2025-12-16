@@ -1,5 +1,4 @@
-import { englishToMorse, morseToEnglish, autoDetect } from "./morse.js";
-
+import { englishToMorse, morseToEnglish, autoDetect } from "./src/morse.js";
 
 document.getElementById("translateBtn").addEventListener("click", () => {
   const input = document.getElementById("inputText").value.trim();

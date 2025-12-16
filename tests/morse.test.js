@@ -1,4 +1,5 @@
-import { englishToMorse, morseToEnglish, autoDetect } from "../src/morse.js";
+
+import{ englishToMorse, morseToEnglish, autoDetect } from "../src/morse.js";
 
 test("English to Morse", () => {
   expect(englishToMorse("HI")).toBe(".... ..");
